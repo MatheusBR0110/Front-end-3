@@ -1,0 +1,31 @@
+:root{
+    --tituloprincipal:var #FFFFFF;
+    --subititulo:var #FFA500;
+    --rodape: #FFFFFF;
+    --cordefundoprincipal: #000000;
+    --botao-azul:
+    --branco-principal;
+}
+body{
+    background-color: var(--cordefundoprincipal);
+}
+.principal{
+    background-image: url("img/Background\ \ (1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--botao-azul)
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
